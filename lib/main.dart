@@ -42,7 +42,9 @@ class HomeScreen extends StatelessWidget {
             child: ListTile(
               title: Text(categories[index]),
               trailing: Icon(Icons.arrow_forward_ios),
-              onTap: () {},
+              onTap: () {
+                // placeholder for future navigation
+              },
             ),
           );
         },
